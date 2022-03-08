@@ -1,0 +1,31 @@
+.login {
+    @include for-mobile {
+        background: transparent !important;
+    }
+    .vh100 {
+        height: 100vh;
+        object-fit: cover;
+        @include for-mobile {
+            height: 260px;
+            object-fit: contain;
+        }
+    }
+}
+
+.login {
+    background: linear-gradient(to left, white 50%, #F6FCFF 50%);
+}
+
+.login_form {
+    h1 {
+        font-size: 30px;
+        margin: 0;
+    }
+    .p-abs {
+        top: 9px;
+        i {
+            font-size: 17px;
+            color: $lightblue;
+        }
+    }
+}

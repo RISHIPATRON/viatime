@@ -1,0 +1,19 @@
+input.form-control {
+    background-color: transparent !important;
+    display: block;
+    height: auto;
+    border: none;
+    border-bottom: 1px solid #afafaf !important;
+    border-radius: 0;
+    font-size: 17px;
+    padding-left: 35px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    &:active {
+        background-color: transparent !important;
+    }
+    &:focus {
+        background-color: transparent !important;
+        box-shadow: none;
+    }
+}

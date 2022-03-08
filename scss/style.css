@@ -1,0 +1,1635 @@
+/*
+Theme Name: OceanWP Child
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress theme example child theme.
+Author: Gaurav Gupta
+Author URI: https://oceanwp.org/
+Template: oceanwp
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+.blog div#content , .post-template-default div#content {
+    max-width: 1170px !important;
+        margin: auto;
+}
+form#wpforms-form-3042 label {
+    display: none;
+}
+.post-template-default header.entry-header.clr {
+    box-shadow: none;
+}
+.blog-entry.post .thumbnail img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.theme-heading .text::before {
+  
+    color: #d4591c;
+   
+}
+.blog #blog-entries article {
+    width: 100%;
+    flex: 49%;
+}
+.blog-entry-readmore.clr a {
+    background: #D4591C;
+    color: white;
+    font-size: 14px !important;
+    padding: 13px 20px !important;
+    border-radius: 10px 0 10px 0 !important;
+}
+.single nav.post-navigation .nav-links .title {
+    display: block;
+    color: #d4591c;
+    line-height: 20px;
+}
+ button.btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #d4591c;
+    color: white;
+    border: 3px solid white;
+    opacity: 1;
+    border-radius: 50%;
+    padding: 5px;
+}
+button#wpforms-submit-3041 {
+    background: #D4591C;
+    color: white;
+    font-size: 14px !important;
+    padding: 13px 20px !important;
+    border-radius: 10px 0 10px 0 !important;
+}
+div#CorporateModal {
+    top: 30px;
+}
+button#wpforms-submit-3041 {
+    color: #D4591C;
+    border: 1px solid #D4591C;
+    background: transparent;
+}
+input#comment-submit {
+    background: #D4591C;
+    color: white;
+    font-size: 14px !important;
+    padding: 13px 20px !important;
+    border-radius: 10px 0 10px 0 !important;
+}
+
+input#comment-submit:hover {
+    color: #D4591C;
+    border: 1px solid #D4591C;
+    background: transparent;
+}
+.blog-entry.large-entry .blog-entry-readmore a:hover {
+    color: #D4591C;
+    border-color: #D4591C;
+    background: transparent;
+}
+header.blog-entry-header.clr {
+    box-shadow: none;
+}
+@media (min-width: 1400px){
+    .blog div#content , .post-template-default div#content {
+    max-width: 1320px;
+}
+}
+
+@media (min-width: 1200px){
+.blog div#content , .post-template-default div#content {
+    max-width: 1140px;
+}
+}
+@media (min-width: 992px){
+.blog div#content , .post-template-default div#content {
+    max-width: 960px;
+}
+}
+@media (min-width: 768px){
+.blog div#content , .post-template-default div#content {
+    max-width: 720px;
+}
+}
+@media (min-width: 576px){
+.blog div#content , .post-template-default div#content {
+    max-width: 540px;
+   
+}
+
+}
+@media (max-width: 576px){
+div#blog-entries {
+    
+    display: block !important;
+}
+.blog-entry.post .thumbnail img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+}
+.blog div#content , .post-template-default div#content {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.blog div#content , .post-template-default div#content {
+    max-width: 1170px !important;
+    margin-top: 50px;
+}
+
+
+div#blog-entries {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.menu-item-has-children {
+    position: relative;
+}
+.menu-item-has-children:hover .sub-menu{
+    visibility: visible;
+  opacity: 1;
+}
+header ul.sub-menu {
+  position: absolute;
+    top: 35px;
+    left: -20px !important;
+    width: max-content;
+    list-style-type: none;
+    padding: 0;
+    background: white;
+    box-shadow: 0px 5px 12px -9px rgb(0 0 0 / 50%);
+    border: 2px solid white;
+  visibility: hidden;
+  opacity: 0;
+}
+#wpforms-form-3042 button#wpforms-submit-3042:hover{
+        border:none !important    ;
+}
+.enquire {
+    display: inline-block;
+    position: fixed;
+    right: 0px;
+    top: 40%;
+    transform: rotate(270deg) skewX(10deg);
+    z-index: 111111;
+    background: #D4591C;
+    padding: 15px 45px;
+    margin-right: -81px;
+}
+@media (max-width: 667px) {
+  header ul.sub-menu {
+	  display: none;
+    visibility: visible;
+    opacity: 1;
+    margin-top: 10px;
+    position: static;
+    border: none;
+  }
+	.menu-item-has-children {
+    position: relative;
+}
+	.menu-item-has-children:after {
+    content: "+";
+    position: absolute;
+    right: 8px;
+    font-size: 20px;
+    top: 6px;
+}
+}
+header ul.sub-menu li {
+  padding: 7px 14px;
+	
+}
+header ul.sub-menu li a{
+  
+	color: #141414 !important;
+    font-size: 14px;
+    padding: 5px;
+    display: inline-block;
+}
+header ul.sub-menu .current-menu-item {
+  padding: 7px 14px;
+}
+#wpforms-form-2828 .wpforms-field-large {
+    border: 1px solid #2cd18b !important;
+    border-radius: 10px !important;
+    padding: 13px 20px !important;
+    color: #fff !important;
+    font-family: 'Poppins';
+    background-color: transparent !important;
+}
+.weight-loss .c_excerpt{
+	min-height:140px;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: 600px !important;
+    object-fit: cover;
+}
+#wpforms-form-2828 .wpforms-field-large::placeholder {
+    color: #e3e3e3 !important
+}
+
+.wpforms-submit-container {
+    text-align: center;
+}
+#exampleModal .modal-dialog {
+    max-width: 800px;
+    width: 91%;
+    margin: 50px auto;
+}
+.boxed-layout {
+    background-color: #ffffff;
+}
+#wpforms-form-3042 .wpforms-field-large::placeholder {
+  color: #818181;
+
+}
+button#wpforms-submit-3042 {
+    width: max-content;
+        background: #D76730;
+        border: transparent;
+}
+.modal-header i.fas.fa-times {
+    position: relative;
+    top: -3px;
+}
+#wpforms-form-3042 .wpforms-field-container {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+div#wpforms-3042-field_0-container {
+    width: 100%;
+}
+div#wpforms-3042-field_6-container {
+    width: 100%;
+}
+a.enquire_btn.enquiry_now {
+    color: white;
+}
+a.enquire_btn.enquiry_now:hover {
+    color: white;
+}
+ button.btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #ef3340;
+    color: white;
+    border: 3px solid white;
+    opacity: 1;
+    border-radius: 50%;
+    padding: 5px;
+}
+#exampleModal .modal-body {
+    background: linear-gradient(to right, rgba(0,0,0,.5) 20%,
+              rgba(0,0,0,.5)), url('https://patronanalysis.com/dietncure/wp-content/uploads/target_weight_loss.jpg');
+    /*background: url(https://patronanalysis.com/dietncure/wp-content/uploads/target_weight_loss.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.white_btn {
+    font-size: 18px;
+    text-decoration: none;
+    background: white;
+    padding: 6px 12px;
+    display: inline-block;
+    color: #06a562;
+    font-weight: bold;
+}
+div#wpforms-3042 {
+    margin: 0;
+}
+form#wpforms-form-3042 {
+    display: flex;
+    gap: 15px;
+}
+button#wpforms-submit-2828 {
+    background: #dbd332 !important;
+    border: 0 !important;
+    padding: 15px 113px !important;
+    font-size: 18px !important;
+    text-transform: capitalize !important;
+    letter-spacing: normal !important;
+    line-height: 1 !important;
+    border-radius: 5px;
+}
+header .social_icons p, header .package p,header p{
+margin-bottom:0 !important;
+}
+
+.menu-item {
+    font-weight: 500;
+    color: #2d2d2d !important;
+    padding-right: 0.8rem !important;
+    padding-left: 0.8rem !important;
+}
+
+.current-menu-item a {
+    color: #d4591c !important;
+    border-bottom: 3px solid #d4591c;
+    padding: 6px;
+}
+
+.footer-nav-container h2 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer-nav-container ul {
+    margin: 0 !important;
+}
+
+div#content-wrap, .content-area {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.wpcf7 form .wpcf7-response-output {
+    margin: 2em 0.5em 1em;
+    padding: 0.2em 1em;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    overflow-x: visible;
+    overflow: visible;
+}
+
+section p {
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1170px !important;
+}
+
+h2, h2>p {
+    color: #01A25F;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+h3 {
+    color: #2D2D2D;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.h100 {
+    padding: 50px 0;
+}
+
+.h60 {
+    height: 60vh;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.f16 {
+    font-size: 16px;
+}
+
+.bg_grey {
+    background: #272D3A;
+}
+
+.bg_Lightgrey {
+    background: #F8F9FA;
+}
+
+section h2 {
+    padding: 5px;
+}
+
+.bg_LightGreen {
+    background: #DFF4EB;
+}
+
+.bg_Green {
+    background: #DFF4EB;
+}
+
+.fw-5 {
+    font-weight: 500;
+}
+
+.mr-1 {
+    margin-right: 1rem;
+}
+
+.why-us .card:hover span.card-icon img  {
+    /*fill: white;*/
+    filter: brightness(0) invert(1);
+}
+
+.why-us .card:hover {
+    background: #00A35E;
+    color: white;
+}
+
+.why-us .card:hover h2.card-icon-box-title {
+    color: white;
+}
+
+.green_hover .card:hover span.card-icon img  {
+    /*fill: white;*/
+    filter: brightness(0) invert(1);
+}
+
+.green_hover .card:hover {
+    background: #00A35E;
+    color: white;
+}
+
+.green_hover .card:hover h2.card-icon-box-title {
+    color: white;
+}
+
+.green_hover .card:hover p.card-icon-box-description {
+    color: white;
+}
+
+table {
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+thead {
+    background: #01a25f;
+    color: white;
+    text-transform: uppercase;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg: white;
+    color: #212529;
+    font-weight: 600;
+    padding: 14px;
+}
+
+.table-striped>tbody>tr:nth-of-type(even)>* {
+    --bs-table-accent-bg: #DEF3EA;
+    color: #212529;
+    font-weight: 600;
+    padding: 14px;
+}
+
+th {
+    padding: 14px !important;
+    font-weight: 600;
+}
+
+.twentytwenty-vertical .twentytwenty-before-label:before, .twentytwenty-vertical .twentytwenty-after-label:before {
+    left: 5%;
+    margin-left: -45px;
+    text-align: center;
+    width: 90px;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 0;
+}
+
+.sticky-div {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    background-color: rgb(248, 249, 250);
+}
+
+.sticky-div2 {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    background-color: rgb(255, 255, 255);
+}
+
+.rollincustom {
+
+    /* animation-duration: 1s;
+        animation-name: rollIn;
+        animation-fill-mode: both;
+         */
+    opacity: 0;
+    transform: translate3d(-100px, 0, 0) rotate(-120deg)
+}
+
+.slider-image-c img {
+    filter: brightness(90%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 12px 1px rgb(0 0 0 / 10%);
+    width: 100%;
+}
+
+.app_icons img {
+    max-width: 170px;
+    width: 100%;
+    border: none !important;
+    padding: 0 !important;
+    background: transparent !important;
+}
+
+#topbtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    background-color: #cccccc;
+    border-radius: 50px;
+    color: #000;
+    cursor: pointer;
+    padding: 10px 18px;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button#topbtn i {
+    position: relative;
+    left: -3px;
+    top: -8px;
+}
+
+header {
+    box-shadow: 0px 5px 12px -9px rgb(0 0 0 / 50%);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+header .custombtn {
+
+    /*font-size: 15px;
+        background-color: #D4591C;
+        border-color: #D4591C;
+        padding: 7px 20px;*/
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #D4591C;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF00;
+    border-radius: 15px 0px 15px 0px;
+    padding: 10px 20px;
+    line-height: 1;
+}
+
+header .custombtn:hover, header .custombtn:focus {
+    color: #D4591C !important;
+    background-color: #02010100;
+    border-color: #D4591C;
+}
+
+section {
+
+    /*overflow: hidden;*/
+    padding: 80px 0;
+    position: relative;
+}
+
+h2.card-icon-box-title span p{
+    margin: 0;
+    font-size: 26px;
+}
+
+p.card-icon-box-description {
+    margin: 0;
+    font-size: 16px;    /*text-align: center;*/
+    font-weight: 600;
+}
+
+.greentext {
+    color: #01A25F;
+}
+
+.top {
+    background-color: #F4F4F4;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.b-des, .b-des p {
+    color: #7D7D7D;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.author {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.custombtn {
+    border-radius: 15px 0px 15px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #01A25F;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #01A25F;
+    text-decoration: none;
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.custombtn:hover {
+    color: #01A25F;
+    background-color: #FFFFFF;
+}
+
+.consultinput input{
+    border-radius: 14px 0 0 0 !important;
+}
+form#wpforms-form-2925 {
+    display: flex;
+}
+input#wpforms-2925-field_3 {
+    width: 300px !important;
+    border:  1px solid #ced4da !important;
+    color: black !important;
+    background: white !important;
+}
+button#wpforms-submit-2925 {
+    padding: 12px !important;
+}
+button#wpforms-submit-2925:hover {
+    padding: 12px !important;
+    border: none !important;
+}
+.consult-now {
+    background: #dad134  !important;
+    background-color: #dad134  !important;
+    text-transform: capitalize !important;
+    border-color: #dad134 !important;
+    color: white !important;
+    font-weight: 500 !important;
+    letter-spacing: normal !important;
+    border-radius: 0 0 14px 0 !important;
+    line-height: 1 !important;
+    font-size: 16px !important;
+    padding: 10px !important;
+}
+
+.consult-now:hover, .consult-now:focus {
+    background: #dabe34 !important;
+    border-color: #dabe34;
+    box-shadow: none !important;
+}
+
+.consultinput {
+    font-size: 15px;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.ctext {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+    background: #ffff;
+    border: 1px solid #666666;
+    padding: 15px 29px;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+.linktext {
+    color: #01A25F;
+    text-decoration: none;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.before_after img {
+    background-color: #fff;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #666666;
+}
+
+.menu-item {
+    font-weight: 500;
+    color: #2d2d2d !important;
+    padding-right: 0.8rem !important;
+    padding-left: 0.8rem !important;
+}
+
+a.navbar-brand img {
+    max-width: 148px;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #d4591c !important;
+    border-bottom: 3px solid #d4591c;
+}
+
+.social_icons img {
+    width: 30px
+}
+
+a {
+    color: #212529;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('/dietncure/html/images/background.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 55px !important;   /* background-attachment: fixed;*/
+}
+
+.italic_black {
+    font-size: 28px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.gallery {
+    background: #272D3A;
+    z-index: 1;
+}
+
+.reviews {
+    background: #DFF4EB;
+}
+
+.image-box img {
+    border-radius: 10px;
+}
+
+.logo-img img {
+    max-width: 117px;
+    width: 100%;
+}
+
+.logo-img {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    border-radius: 12px;
+    padding: 20px;    /*transition: 0.3s;*/
+    text-align: center;
+    transition: top ease 0.5s;
+    position: relative;
+    top: 0;
+	margin-bottom:40px;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+
+@-webkit-keyframes rollIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-100%)rotate(-120deg);
+        transform: translateX(-100%)rotate(-120deg)
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0)rotate(0);
+        transform: translateX(0)rotate(0)
+    }
+
+}
+
+@keyframes rollIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-100%)rotate(-120deg);
+        -ms-transform: translateX(-100%)rotate(-120deg);
+        transform: translateX(-100%)rotate(-120deg)
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0)rotate(0);
+        -ms-transform: translateX(0)rotate(0);
+        transform: translateX(0)rotate(0)
+    }
+
+}
+
+.rollIn.active {
+    -webkit-animation-name: rollIn;
+    animation-name: rollIn
+}
+
+.logo-img:hover {
+    box-shadow: 0 4px 15px 0 rgb(0 0 0 / 20%);
+    top: -10px;
+}
+
+.why-us {
+    background-color: #DFF4EB;
+    position: relative;
+}
+
+.why-us:before {
+    background-image: url(/dietncure/html/images/path-whyapp.png);
+}
+
+.why-us:before, .waves-sec:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    top: -100px;
+}
+
+.why-us .card {
+    background: #fff;
+    border-radius: 0 14px 0 14px;
+    padding: 20px 40px;
+    max-width: 350px;
+    width: 100%;
+    transition: 0.4s;
+    /*animation-duration: 1s;
+    animation-name: fadeInUp;
+    justify-content: center;
+    animation-fill-mode: both;*/
+}
+
+.green_hover .card {
+    background: #fff;
+    border-radius: 0 14px 0 14px;
+    padding: 20px 40px;
+    max-width: 350px;
+    width: 100%;
+    transition: 0.4s;
+    /*animation-duration: 1s;
+    animation-name: fadeInUp;
+    justify-content: center;
+    animation-fill-mode: both;*/
+}
+
+.card-container {
+    display: flex;
+}
+
+.contact {
+    background-color: #00A35E;
+}
+
+.waves-sec:before {
+    background-image: url(/dietncure/html/images/path-design-1.png);
+}
+
+.why-us:before, .waves-sec:before, #experience-joy:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    top: -100px;
+}
+
+.path-design-up:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-image: url(/dietncure/html/images/path-design-1.png);
+    top: -100px;
+}
+
+.path_design_down:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: url(/dietncure/html/images/path-design-down.png);
+    bottom: -100px;
+}
+
+.dietncure-app-sec {
+    box-shadow: 0px 0px 9px 0px rgb(2 2 2 / 10%);
+    background: #f8f8f8 !important;
+    transition: 0.4s;
+    animation-duration: 2s;
+}
+
+.dietncure-app-sec:hover {
+    background: #01a25f !important;
+    color: #ffff !important;
+    border-radius: 14px !important;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%) !important;
+}
+
+.dietncure-app-sec p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.why-us:before {
+    background-image: url(/dietncure/html/images/path-whyapp.png);
+}
+
+#experience-joy:before {
+    background-image: url(/dietncure/html/images/path-design-1.png);
+}
+
+#experience-joy {
+    margin-top: 80px;
+    padding-top: 0px;
+}
+
+section.before_after .row {
+    padding: 50px 0;
+}
+
+footer {
+    padding: 50px 0 10px 0;
+}
+
+.callbgfooter {
+    padding: 8px 10px 5px 40px;
+    background-color: #E5F6EF;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.iconx {
+    border-radius: 50px;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    color: white;
+}
+
+.social-icon a {
+    transition: 0.5s all ease-in-out;
+    display: inline-block;
+}
+
+.social-icon a:hover {
+    transform: scale(0.8);
+    color: white;
+}
+
+.icon1 {
+    background: #3B5998;
+}
+
+.icon2 {
+    background: #CD201F;
+}
+
+.icon3 {
+    background: #0077B5;
+}
+
+.icon4 {
+    background: #5C4A4A;
+}
+
+.svgcall {
+    width: 40px;
+    height: 40px;
+    background-color: #01A25F; /* defines the background color of the image */
+    mask: url('/dietncure/html/images/Big-Telephone.svg') no-repeat center / contain;
+    -webkit-mask: url('/dietncure/html/images/Big-Telephone.svg') no-repeat center / contain;
+}
+
+footer .footer-menu-heading a {
+    font-size: 16px;
+    color: #01A25F;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li a {
+    color: #2D2D2D;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.contact {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.contact:after {
+    background-image: url('/dietncure/html/images/path-design-green.png');
+}
+
+.gallery:after {
+    background-image: url('/dietncure/html/images/path-design-blue.png');
+}
+
+.reviews:after {
+    background-image: url('/dietncure/html/images/path-design-down-rating.png');
+}
+
+.waves-sec:after, .contact:after, .wave-bottom:after, .our-clients:after, .gallery:after, .reviews:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    bottom: -100px;
+}
+
+#contact-form input, #contact-form textarea {
+    border: 1px solid #2cd18b !important;
+    border-radius: 10px !important;
+    padding: 13px 20px !important;
+    color: #fff !important;
+    font-family: 'Poppins';
+    background-color: transparent !important;
+}
+
+#contact-form input::placeholder, #contact-form textarea::placeholder {
+    color: #fff !important;
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+    background: #ffffff30 !important;
+    box-shadow: none !important;
+}
+
+#contact-form .submit:hover {
+    background: #e2d917;
+}
+
+#contact-form .submit {
+    background: #dbd332;
+    border: 0 !important;
+    padding: 15px 113px !important;
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    line-height: 1;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #dbd332;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    color: #fff !important;
+}
+
+.swiper-pagination {
+    position: initial !important;
+    margin-top: 20px !important;
+}
+
+.copyright-warpper p, .copyright-warpper a {
+    font-size: 14px;
+    color: #212529;
+}
+
+.card-icon svg {
+    width: 1em;
+    height: 1em;
+    position: relative;
+    display: block;
+    font-size: 63px;
+}
+
+.card-wrapper {
+    display: flex;
+}
+
+.card-icon-box-icon {
+    margin-right: 18px;
+}
+
+.address-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 40px;
+    background-color: #E5F6EF;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.address-icon svg {
+    width: 35px;
+    height: 35px;
+}
+
+.address-icon svg path {
+    fill: #01A25F;
+}
+
+.address-title>a {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #333;
+}
+
+.address-description {
+    color: #01A25F;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.email-wrapper>h2 {
+    color: #2d2d2d;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.follow-wrapper>h2 {
+    color: #2d2d2d;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.email-wrapper p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #01A25F;
+}
+
+.email-wrapper p a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #01A25F;
+    text-decoration: none;
+}
+
+.why-us .card .card:hover {
+    background: #01a25f;
+    color: #ffff !important;
+    border-radius: 14px;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+}
+
+.social_icons a svg {
+    width: 1em;
+    height: 1em;
+    position: relative;
+    display: block;
+    font-size: 25px;
+}
+
+.social_icons a {
+    margin-right: 5px;
+    transition: 0.5s all ease-in-out;
+}
+
+.social_icons a:hover {
+    transform: scale(1.1);
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;        /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+}
+
+.twentytwenty-vertical .twentytwenty-before-label:before {
+left: 0 !important;
+margin-left: 10px !important;
+}
+
+.twentytwenty-vertical .twentytwenty-after-label:before {
+left: auto !important;
+margin-left: auto !important;
+right: 0 !important;
+margin-right: 10px !important;
+}
+
+.w50 {
+width: 50%;
+margin: auto;
+}
+
+.w75 {
+width: 75%;
+margin: auto;
+}
+
+#myHeader {
+
+/*position: fixed;*/
+top: 105px;
+z-index: 100;
+background: #F8F9FA;
+width: 100%;
+padding: 11px 0;
+}
+
+.call-top svg {
+font-size: 18px;
+fill: #02A25F;
+width: 18px;
+height: 18px;
+}
+
+.sticky-top-c {
+position: -webkit-sticky;
+position: -moz-sticky;
+position: -ms-sticky;
+position: -o-sticky;
+position: sticky;
+top: 0;
+z-index: 1020;
+}
+
+.sticky_headers {
+position: sticky;
+top: 105px;
+z-index: 1010;
+}
+
+
+
+h2.footer-menu-heading {
+font-family: "Poppins", Sans-serif;
+font-size: 16px;
+font-weight: 700;
+}
+
+.slider-image-c p {
+color: var(--e-global-color-text);
+font-family: "Poppins", Sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: normal;
+}
+
+.box {
+position: relative;
+padding: 40px 35px !important;
+background: #fff;
+margin: 10px;
+border-radius: 15px;
+box-shadow: 0px 0px 18px 0px rgb(10 27 95 / 10%);
+-webkit-box-shadow: 0px 0px 18px 0px rgb(10 27 95 / 10%);
+-moz-box-shadow: 0px 0px 18px 0px rgba(10, 27, 95, .1);
+transition: 0.3s all ease-in-out;
+}
+
+.box:hover {
+/*transform: translateY(-15px);*/
+background: #01a25f;
+}
+
+.box h2 {
+color: #000000;
+font-family: "Poppins", Sans-serif;
+font-size: 25px;
+font-weight: 700;
+}
+
+.box p {
+color: #000000;
+font-family: "Poppins", Sans-serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 21px;
+}
+
+.box:hover h3, .box:hover p, .box:hover ul.icon-list-items li  {
+color: #fff !important;
+transition: all 0.3s ease-in-out;
+}
+
+.box:hover .custombtn {
+border: 1px solid #fff !important;
+}
+
+.about_box_height {
+min-height: 275px;
+}
+
+ul.icon-list-items {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+ul.icon-list-items li {
+font-size: 15px;
+font-weight: 500;
+line-height: 23px;
+color: #000000;
+margin-top: 10px;
+}
+
+ul.icon-list-items li span {
+margin-right: 5px;
+}
+
+.right_icon {
+position: absolute;
+top: -25px;
+right: 30px;
+background: #01a25f;
+box-shadow: 0px 0px 9px 0px rgb(1 162 95 / 42%);
+width: 60px !important;
+height: 60px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: all 0.3s ease-in-out;
+}
+
+.right_icon img {
+/*fill: #fff !important;*/
+filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(168deg) brightness(105%) contrast(101%);
+width: 39px;
+}
+
+.box:hover .right_icon img {
+/*fill: #01a25f !important;*/
+filter: invert(30%) sepia(99%) saturate(2816%) hue-rotate(143deg) brightness(103%) contrast(99%);
+}
+
+.box:hover .right_icon {
+background: #fff;
+}
+
+/*tablet*/
+@media only screen and (max-width:1025px) {
+}
+
+/*mobile */
+@media only screen and (max-width:600px) {
+    #wpforms-form-2925 .wpforms-submit-container{
+        padding: 0;
+    }
+    form#wpforms-form-3042 {
+    display: block;
+    gap: 15px;
+}
+    .wpforms-field-container {
+    display: flex;
+    gap: 15px;
+}
+button#wpforms-submit-3042 {
+    width: 100%;
+}
+.wpforms-field {
+    padding: 0 !important;
+}
+   .feature_inner  .row-cols-3>* {
+    flex: 0 0 auto;
+    width: 33.3333333333% !important    ;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: 400px !important;
+    object-fit: cover;
+}
+
+.sticky_headers {
+    top: 105px;
+}
+
+.image-box img {
+    width: 100%;
+}
+
+.gs_reveal img {
+    width: 100%;
+}
+
+.w50 {
+    width: 100%;
+}
+
+.w75 {
+    width: 100%;
+}
+
+.feature_inner .col {
+    margin-bottom: 20px;
+}
+
+.waves-sec:after, .contact:after, .wave-bottom:after, .our-clients:after, .gallery:after, .reviews:after {
+    bottom: -45px;
+}
+
+.why-us:before, .waves-sec:before, #experience-joy:before {
+    top: -35px;
+}
+
+.why-us .card {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.logo-img img {
+    max-width: 70px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+section.before_after .row {
+    padding: 20px 0;
+}
+
+section.before_after .row .d-flex {
+    margin-bottom: 25px;
+    justify-content: center;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.address-container>div>div {
+    margin-bottom: 20px;
+}
+
+.twentytwenty-vertical .twentytwenty-before-label:before, .twentytwenty-vertical .twentytwenty-after-label:before {
+    left: 14%;
+}
+
+}
+
+@media only screen and (max-width:767px) {
+.wpforms-field {
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.menu-item {
+    padding: 10px;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+/*nav-expand for footer with head and ul*/
+section p {
+    font-size: 14px;
+}
+
+p.card-icon-box-description {
+    font-size: 14px;
+}
+
+.footer-nav-container, .address-container {
+    margin-top: 40px;
+}
+
+.hero {
+    background-position: left;
+    padding-top: 25px !important;
+}
+
+.nav-c {
+    border-bottom: 1px solid #eee;
+}
+
+.footer-nav-container .nav-c h2 {
+    cursor: pointer;
+    padding: 17px 0 9px 0
+}
+
+.footer-nav-container ul {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-out;
+    margin: 0;
+}
+
+.footer-nav-container .nav-c h2:after {
+    content: "+";
+    float: right;
+}
+
+.footer-nav-container .nav-c.open h2:after {
+    content: "-";
+}
+
+.footer-nav-container .nav-c.open ul {
+    height: auto;
+    max-height: 500px;
+    transition: max-height 1s ease-in !important;
+}
+
+.box {
+    margin: 20px 10px;
+}
+
+.green_hover .card {
+    margin: 20px auto;
+}
+
+.path_design_down:after {
+    bottom: -50px;
+}
+
+.w-75 {
+    width: 100% !Important;
+}
+
+.about_box_height {
+    min-height: auto;
+}
+
+.about-hero {
+    height: auto;
+}
+.sticky_headers p{
+	font-size:22px;
+}
+input#wpforms-2925-field_3 {
+    width: 230px !important;
+}
+
+}

@@ -1,0 +1,53 @@
+body {
+    font-family: $font;
+    background-color: white;
+}
+
+.f18 {
+    font-size: 18px;
+}
+
+.blue {
+    color: $blue;
+}
+
+.bg_blue {
+    background-color: $blue;
+}
+
+.f_light {
+    font-weight: 400;
+}
+
+.bg_dullblue {
+    background-color: $dullblue;
+}
+
+.lightblue {
+    color: $lightblue;
+}
+
+.bg_lightblue {
+    background-color: $lightblue;
+}
+
+.p-rel {
+    position: relative;
+}
+
+.p-abs {
+    position: absolute;
+}
+
+.copyrightset {
+    position: absolute;
+    bottom: 20px;
+    right: 25%;
+    transform: translateX(50%);
+    width: max-content;
+    @include for-mobile {
+        right: 50%;
+        transform: translateX(50%);
+        width: max-content;
+    }
+}
